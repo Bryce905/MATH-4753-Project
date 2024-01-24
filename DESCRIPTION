@@ -1,0 +1,11 @@
+Package: MATH4753HENDERSON24
+Type: Package
+Title: MATH 4753 Lab functions
+Version: 0.1.0
+Author: Bryce Henderson
+Maintainer: Bryce Henderson <brycehenderson257@ou.edu>
+Description: MATH 4753 Lab Functions and other selections.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.0
