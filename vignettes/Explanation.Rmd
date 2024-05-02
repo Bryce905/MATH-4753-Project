@@ -1,0 +1,59 @@
+---
+title: "What my package does"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{What my package does}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MATH4753HENDERSON24)
+```
+
+# Introduction
+
+## myquad
+
+This is a binary probability function
+
+```{r}
+MATH4753HENDERSON24::mybin()
+```
+
+## myctlb
+
+This makes a histogram of means from a binomial sample
+
+```{r}
+MATH4753HENDERSON24::mycltb(n=20,iter=1000)
+```
+## myboot2
+
+This function creates a bootstrap interval
+
+```{r}
+MATH4753HENDERSON24::myboot2(x=c(1,1,1,1,2,2,2,2,3,3,3))
+```
+
+## myncurve
+
+This function displays the probability of a normal curve
+```{r}
+MATH4753HENDERSON24::myncurve()
+```
+
+## ntickets
+
+This function solves the overbooking problem
+```{r}
+MATH4753HENDERSON24::ntickets()
+```
+
